@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form method="" class="form-field">
+            <div class="form-title">Form Barang</div>
+            <hr>
+            <div class="input-field">
+                <div class="input-title">ID Barang</div>
+                <input type="text" placeholder="ID Barang" class="input-text" id="idBarang" required autocomplete="off">
+            </div>
+            <div class="input-field">
+                <div class="input-title">Nama Barang</div>
+                <input type="text" placeholder="Nama Barang" class="input-text" id="namaBarang" required
+                    autocomplete="off">
+            </div>
+            <div class="input-field">
+                <div class="input-title">Stok Barang</div>
+                <input type="text" placeholder="Stok Barang" class="input-text" id="stokBarang" required
+                    autocomplete="off">
+            </div>
+            <div class="input-field">
+                <div class="input-title">Jenis Barang</div>
+                <label for="elektronik" class="radio">
+                    <input type="radio" name="jenis" id="elektronik" value="Elektronik" class="hidden" checked>
+                    <div class="radio-circle"></div>
+                    <div class="radio-text">Elektronik</div>
+                </label>
+                <label for="otomotif" class="radio">
+                    <input type="radio" name="jenis" id="otomotif" value="Otomotif" class="hidden">
+                    <div class="radio-circle"></div>
+                    <div class="radio-text">Otomotif</div>
+                </label>
+                <label for="digital" class="radio">
+                    <input type="radio" name="jenis" id="digital" value="Digital" class="hidden">
+                    <div class="radio-circle"></div>
+                    <div class="radio-text">Digital</div>
+                </label>
+            </div>
+            <div class="input-field">
+                <div class="input-title">Harga Barang</div>
+                <input type="number" id="hargaBarang" class="input-text" placeholder="Harga Barang" required
+                    autocomplete="off">
+            </div>
+            <hr>
+            <div class="button-group">
+                <input type="submit" class="button primary" value="Submit">
+                <input type="reset" class="button secondary" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
